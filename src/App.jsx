@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
-import Fallback from "./pages/Fallback.jsx";
+import Home from "./pages/Home/Home.jsx";
+import About from "./pages/About/About.jsx";
+import Fallback from "./pages/Fallback/Fallback.jsx";
 
 const App = () => {
 
