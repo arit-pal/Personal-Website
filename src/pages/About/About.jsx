@@ -5,14 +5,14 @@ const About = () => {
         <div className="about-container">
             <header className="header-content">
                 <div className="header-name">
-                    <p>Arit Pal</p>
+                    <a href="/">Arit Pal</a>
                 </div>
                 <div className="header-links">
                     <div className="header-about">
-                        <p>About Me</p>
+                        <a href="/about">About Me</a>
                     </div>
                     <div className="header-contact">
-                        <p>Contact</p>
+                        <a href={`mailto:arit.sde@proton.me`}>Contact</a>
                     </div>
                 </div>
             </header>

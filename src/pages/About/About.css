@@ -13,19 +13,28 @@ body {
     align-items: center;
 }
 
-.header-name {
-    margin-left: 10px;
-    margin-right: 1300px;
-}
-
 .header-links {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.header-name {
+    margin-left: 10px;
+    margin-right: 975px;
+    padding: 50px;
+    font-size: x-large;
+}
+
 .header-about {
-    margin-right: 30px;
+    padding: 50px;
+    font-size: larger;
+    text-decoration: underline;
+}
+
+.header-contact {
+    padding: 50px;
+    font-size: larger;
 }
 
 .main-content {
