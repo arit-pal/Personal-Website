@@ -2,26 +2,33 @@ import "./About.css";
 
 const About = () => {
     return (
-        <div className="about-container">
-            <header className="header-content">
-                <div className="header-name">
-                    <a href="/">Arit Pal</a>
-                </div>
-                <div className="header-links">
-                    <div className="header-about">
-                        <a href="/about">About Me</a>
+        <div className="about-page-container">
+            <header className="header">
+                <div className="header-container">
+                    <div className="brand-name">
+                        <a href="/">ARIT PAL</a>
                     </div>
-                    <div className="header-contact">
-                        <a href={`mailto:arit.sde@proton.me`}>Contact</a>
-                    </div>
+                    <nav className="navigation">
+                        <a href="/about" className="nav-link active">ABOUT</a>
+                        <a href={`mailto:arit.sde@proton.me`} className="nav-link">CONTACT</a>
+                    </nav>
                 </div>
             </header>
+
             <main className="main-content">
-                <h1>About Me</h1>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                <div className="main-content-container">
+                    <div className="decorator-line"></div>
+                    <h1 className="main-title">ABOUT ME</h1>
+                    <p className="main-description">
+                        I am Arit Pal, a driven and aspiring Software Engineer from Kolkata, West Bengal, specializing in Java and Spring Boot. Currently, I am completing my B.Tech in Information Technology at the Narula Institute of Technology, on track to graduate in 2025.
+                    </p>
+                </div>
             </main>
-            <footer className="footer-content">
-                <p>© 2025 Arit Pal. All rights reserved.</p>
+
+            <footer className="footer">
+                <div className="footer-container">
+                    <p>© 2025 Arit Pal. All rights reserved.</p>
+                </div>
             </footer>
         </div>
     );
