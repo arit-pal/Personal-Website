@@ -19,7 +19,7 @@ const Home = () => {
             <main className="home-main-content">
                 <div className="home-main-content-container">
                     <h1 className="main-headline">
-                        Aspiring Software Engineer Specializing in Backend Development
+                        Software Engineer Specializing in Backend Development
                     </h1>
                     <p className="main-subheadline">
                         I build robust and scalable web applications using Java and Spring Boot. Passionate about creating efficient, real-world solutions.
