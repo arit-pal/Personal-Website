@@ -20,7 +20,7 @@ const About = () => {
                     <div className="decorator-line"></div>
                     <h1 className="main-title">ABOUT ME</h1>
                     <p className="main-description">
-                        I am Arit Pal, a driven and aspiring Software Engineer from Kolkata, West Bengal, specializing in Java and Spring Boot. Currently, I am completing my B.Tech in Information Technology at the Narula Institute of Technology, on track to graduate in 2025.
+                        I am Arit Pal, a recently graduated Junior Backend Developer based in Kolkata, West Bengal. I specialize in Java and Spring Boot, focusing on developing robust and efficient software solutions. My technical skills include C, Java, Spring Boot, MySQL, HTML5, CSS3, and Git/GitHub. I also bring strong soft skills such as leadership, problem-solving, and teamwork. My practical experience includes developing a RESTful Blog CRUD API using Java, Spring Boot, and MySQL. I also built a functional and responsive YouTube Homepage Clone using HTML5 and CSS3, demonstrating UI/UX awareness. I completed my B.Tech in Information Technology from Narula Institute of Technology, graduating with an average GPA of 8.34. I participated in the AICTE-sponsored Innovate India Coding Championship and captained a winning football team.
                     </p>
                 </div>
             </main>
