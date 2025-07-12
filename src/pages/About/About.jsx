@@ -1,18 +1,12 @@
 import "./About.css";
+import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 const About = () => {
     return (
         <div className="about-page-container">
-            <header className="header">
-                <div className="header-container">
-                    <div className="brand-name">
-                        <a href="/">ARIT PAL</a>
-                    </div>
-                    <nav className="navigation">
-                        <a href="/about" className="nav-link active">ABOUT</a>
-                        <a href={`mailto:arit.sde@proton.me`} className="nav-link">CONTACT</a>
-                    </nav>
-                </div>
+            <header>
+                <Header />
             </header>
 
             <main className="main-content">
@@ -25,10 +19,8 @@ const About = () => {
                 </div>
             </main>
 
-            <footer className="footer">
-                <div className="footer-container">
-                    <p>© 2025 Arit Pal. All rights reserved.</p>
-                </div>
+            <footer>
+                <Footer />
             </footer>
         </div>
     );
