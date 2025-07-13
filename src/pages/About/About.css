@@ -49,7 +49,8 @@ a {
     font-size: 1rem;
     line-height: 1.625;
     color: #121212;
-    max-width: 576px;
+    max-width: 580px;
+    text-align: justify;
 }
 
 @media (min-width: 640px) {
