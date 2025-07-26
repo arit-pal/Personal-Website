@@ -16,7 +16,7 @@ const Home = () => {
                         Software Engineer Specializing in Backend Development
                     </h1>
                     <p className="main-subheadline">
-                        I build robust and scalable web applications using Java and Spring Boot. Passionate about creating efficient, real-world solutions.
+                        I build robust and scalable backend systems that power dynamic applications. My passion lies in crafting efficient, real-world solutions that drive performance and reliability.
                     </p>
                     <Link to="/about" className="cta-button">
                         Learn More About Me
