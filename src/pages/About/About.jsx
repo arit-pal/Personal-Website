@@ -14,7 +14,7 @@ const About = () => {
                     <div className="decorator-line"></div>
                     <h1 className="main-title">ABOUT ME</h1>
                     <p className="main-description">
-                        I'm Arit Pal, a recently graduated Junior Backend Developer based in Kolkata, West Bengal. I specialize in Java and Spring Boot, focusing on developing robust and efficient software solutions. My technical skills include Java, Spring Boot, MySQL, HTML5, CSS3, React, Go, and Git. I also possess strong soft skills, including leadership, problem-solving, and teamwork. My practical experience includes developing RESTful APIs that follow industry best practices. I completed my B.Tech in Information Technology from Narula Institute of Technology, graduating with an average GPA of 8.34. I'm passionate about learning and building something new every day.
+                        Hi there! I'm Arit Pal, an enthusiastic Junior Backend Developer in Kolkata, West Bengal, with a strong focus on Java and Spring Boot. I love building efficient and reliable software, and I'm particularly adept at creating RESTful APIs that meet the highest industry standards. My tech stack includes Java, Spring Boot, MySQL, PostgreSQL, Go, and Git, and I also have a good grasp of front-end technologies like HTML5, CSS3, and React. What truly sets me apart are my solid soft skills in leadership, problem-solving, and teamwork. I recently earned my B.Tech in Information Technology from Narula Institute of Technology (GPA 8.30) and I'm always excited to learn, grow, and build something impactful.
                     </p>
                 </div>
             </main>
