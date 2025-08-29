@@ -12,7 +12,7 @@ const Header = () => {
                     <NavLink to="/about" className="nav-link">
                         ABOUT
                     </NavLink>
-                    <a href="mailto:arit.sde@proton.me" className="nav-link">
+                    <a href="mailto:itsaritpal@gmail.com" className="nav-link">
                         CONTACT
                     </a>
                 </nav>
