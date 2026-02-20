@@ -1,3 +1,23 @@
+:root {
+  --bg-color: #f0f2f5;
+  --text-primary: #121212;
+  --text-secondary: #333232;
+  --card-bg: #ffffff;
+  --decorator-bg: #121212;
+  --nav-hover: #333232;
+  --nav-active-border: #2d3748;
+}
+
+[data-theme='dark'] {
+  --bg-color: #121212;
+  --text-primary: #f0f2f5;
+  --text-secondary: #a0a0a0;
+  --card-bg: #1e1e1e;
+  --decorator-bg: #f0f2f5;
+  --nav-hover: #e2e8f0;
+  --nav-active-border: #f0f2f5;
+}
+
 * {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
@@ -6,4 +26,10 @@
   font-variation-settings: "wdth" 100;
   margin: 0px;
   padding: 0px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 }

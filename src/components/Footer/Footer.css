@@ -9,5 +9,5 @@
     margin: 0 auto;
     text-align: center;
     font-size: 0.75rem;
-    color: #333232;
+    color: var(--text-secondary);
 }

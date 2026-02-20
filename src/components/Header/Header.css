@@ -33,12 +33,30 @@
 }
 
 .nav-link:hover {
-    color: #333232;
+    color: var(--nav-hover);
 }
 
 .nav-link.active {
-    border-bottom: 2px solid #2d3748;
+    border-bottom: 2px solid var(--nav-active-border);
     padding-bottom: 0.25rem;
     font-weight: 600;
-    color: #121212;
+    color: var(--text-primary);
+}
+
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 0.5rem;
+    transition: transform 0.2s ease, color 0.3s ease;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    color: var(--nav-hover);
 }

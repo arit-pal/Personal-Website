@@ -1,9 +1,3 @@
-body {
-    margin: 0;
-    background-color: #f0f2f5;
-    color: #121212;
-}
-
 a {
     color: inherit;
     text-decoration: none;
@@ -37,16 +31,17 @@ a {
     margin-top: 0;
     margin-bottom: 1.5rem;
     line-height: 1.2;
+    color: var(--text-primary);
 }
 
 .main-subheadline {
     font-size: 1.125rem;
-    color: #333232;
     margin-bottom: 2.5rem;
     line-height: 1.6;
     max-width: 650px;
     margin-left: auto;
     margin-right: auto;
+    color: var(--text-secondary);
 }
 
 .cta-button {
@@ -99,36 +94,30 @@ a {
 }
 
 @media (min-width: 640px) {
-
     .header,
     .home-main-content,
     .footer {
         padding-left: 3rem;
         padding-right: 3rem;
     }
-
     .navigation {
         gap: 2.5rem;
     }
-
     .main-headline {
         font-size: 3.5rem;
     }
-
     .main-subheadline {
         font-size: 1.25rem;
     }
 }
 
 @media (min-width: 768px) {
-
     .header,
     .home-main-content,
     .footer {
         padding-left: 5rem;
         padding-right: 5rem;
     }
-
     .main-headline {
         font-size: 4rem;
     }
