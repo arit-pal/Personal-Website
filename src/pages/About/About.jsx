@@ -10,12 +10,21 @@ const About = () => {
             </header>
 
             <main className="main-content">
-                <div className="main-content-container">
+                <div className="main-content-container animate-fade-in">
                     <div className="decorator-line"></div>
                     <h1 className="main-title">ABOUT ME</h1>
-                    <p className="main-description">
-                        Hi there! I'm Arit Pal, an enthusiastic Junior Backend Developer in Kolkata, West Bengal, with a strong focus on Java and Spring Boot. I love building efficient and reliable software, and I'm particularly adept at creating RESTful APIs that meet the highest industry standards. My tech stack includes Java, Spring Boot, MySQL, PostgreSQL, Go, and Git, and I also have a good grasp of front-end technologies like HTML5, CSS3, and React. What truly sets me apart are my solid soft skills in leadership, problem-solving, and teamwork. I recently earned my B.Tech in Information Technology from Narula Institute of Technology (GPA 8.30) and I'm always excited to learn, grow, and build something impactful.
-                    </p>
+                    
+                    <div className="main-description">
+                        <p>
+                            I am a Backend Software Engineer based in Kolkata, West Bengal, specializing in building high-performance, scalable systems.
+                        </p>
+                        <p>
+                            My current focus is on designing robust RESTful APIs and system architectures using <strong>Go</strong> and <strong>PostgreSQL</strong>. I also possess a strong foundation in enterprise software development, having previously worked extensively with <strong>Java</strong> and <strong>Spring Boot</strong>.
+                        </p>
+                        <p>
+                            Beyond writing clean and efficient code, I bring strong problem-solving capabilities and a collaborative mindset to every project. I am driven by a continuous desire to learn new technologies, optimize existing systems, and build software that creates real-world impact.
+                        </p>
+                    </div>
                 </div>
             </main>
 

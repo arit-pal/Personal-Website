@@ -11,12 +11,13 @@ const Home = () => {
             </header>
 
             <main className="home-main-content">
-                <div className="home-main-content-container">
+                <div className="home-main-content-container animate-fade-in">
+                    <p className="micro-greeting">Hi, I'm Arit Pal</p>
                     <h1 className="main-headline">
-                        Software Engineer Specializing in Backend Development
+                        Software Engineer Specializing in <span className="gradient-text">Backend Development</span>
                     </h1>
                     <p className="main-subheadline">
-                        I build robust and scalable backend systems that power dynamic applications. My passion lies in crafting efficient, real-world solutions that drive performance and reliability.
+                        I architect robust, scalable systems that power dynamic applications. With a strong focus on Go and PostgreSQL, I build the high-performance engines that drive the modern web.
                     </p>
                     <Link to="/about" className="cta-button">
                         Learn More About Me
